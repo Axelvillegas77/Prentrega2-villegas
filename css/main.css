@@ -1,0 +1,43 @@
+/* reset */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 237, 237);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+header h1 {
+    background-color: rgb(194, 191, 191);
+    padding: 1rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 4px black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 2rem;
+}
+
+section h2 {
+    background-color: rgb(194, 191, 191);
+    padding: 1rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 4px black;
+}
